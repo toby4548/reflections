@@ -10,13 +10,23 @@ staging area is like a buffered place to buffer commit will be made
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+made multiple change in the staging area, then commit
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Sometimess we wants to do some experiments.Branch helps to create a version tree which not effects on the original one master. If the experiments are successful, we can merge the branch to master
+
 How do the diagrams help you visualize the branch structure?
+
+It will show every branch in the repository and indicates their relationship.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+it will contain the change in each branch. To see the relationship between commits
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+automatic can save time but it's not always what we want
